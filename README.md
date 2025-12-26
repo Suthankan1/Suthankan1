@@ -75,6 +75,13 @@
 
 ---
 
+### 📈 Monthly Activity
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=suthankan1&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true" alt="suthankan1's Activity Graph" />
+</div>
+
+---
+
 ### 📊 GitHub Stats
 
 <div align="center">
