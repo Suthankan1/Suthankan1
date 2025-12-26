@@ -27,7 +27,6 @@
     <td valign="top" width="60%">
       <ul>
         <li>🌱 I’m currently learning <strong>Advanced Java, Spring Boot, & CCNA</strong></li>
-        <li>🔭 I’m currently building a <strong>Full Stack Todo Application</strong></li>
         <li>🎨 I enjoy <strong>UI/UX Design in Figma</strong></li>
         <li>💬 Ask me about <strong>Java, Python, C, and Networking</strong></li>
         <li>⚡ Fun fact: <strong>I code best while listening to quiet Tamil melodies.</strong></li>
