@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Suthankan Balenthiran - Living Portfolio Gallery</title>
-</head>
-<body>
-
 <!-- Hidden Easter Egg Quote -->
 <!-- "The best way to predict the future is to create it." - Peter Drucker -->
 
@@ -518,6 +509,3 @@ A network monitoring and security analysis tool for detecting anomalies and pote
 <sub>Last updated: February 2025 | Made with ❤️ and ☕ by Suthankan Balenthiran</sub>
 
 </div>
-
-</body>
-</html>

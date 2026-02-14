@@ -44,15 +44,15 @@ A **completely redesigned GitHub profile** with a modern "Living Portfolio Galle
    - Project details (lines 351-453)
 
 3. **Add Real Project Links**
-   - Replace placeholder GitHub links with actual repositories
+   - Replace placeholder GitHub links with actual repositories (in **Featured Projects Gallery**)
    - Add real demo/live links if available
    - Update project descriptions to match your actual work
 
-4. **Verify Social Links**
-   - LinkedIn (line 147)
-   - Twitter (line 148)
-   - Instagram (line 149)
-   - Email (line 150)
+4. **Verify Social Links** (in the welcome section and contact section)
+   - LinkedIn
+   - Twitter
+   - Instagram
+   - Email
 
 ### Optional Customizations:
 
@@ -85,10 +85,10 @@ A **completely redesigned GitHub profile** with a modern "Living Portfolio Galle
 
 ### Change the SVG Character:
 
-The character is defined in lines 15-120. To modify:
+The character is defined in the **Hero Section** at the top of the README. To modify:
 
 ```svg
-<!-- Character location -->
+<!-- Character location in the SVG -->
 <g transform="translate(300, 150)">
   <!-- Modify these elements -->
   <circle cx="100" cy="30" r="18" fill="#ffdbac"/> <!-- Head -->
@@ -103,7 +103,7 @@ The character is defined in lines 15-120. To modify:
 
 ### Update Project Information:
 
-Navigate to line 351 and modify the project cards:
+Navigate to the **Featured Projects Gallery** section and modify the project cards:
 
 ```markdown
 #### 💼 Your Project Name
@@ -121,7 +121,7 @@ Description of your project goes here.
 
 ### Adjust Gamification Stats:
 
-Line 290-307 contains the ASCII stat box:
+In the **Developer Stats & Achievements** section, find the ASCII stat box:
 
 ```
 ║  ⚡ XP Progress:  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░  850/1000 XP      ║
@@ -133,7 +133,7 @@ Line 290-307 contains the ASCII stat box:
 
 ### Modify Timeline:
 
-Lines 254-272 contain the Mermaid diagram:
+In the **My Coding Journey** section, you'll find the Mermaid diagram:
 
 ```mermaid
 graph LR
@@ -206,15 +206,15 @@ graph LR
 ### To update stats:
 ```bash
 # Edit README.md
-# Find the stats section (around line 290)
-# Update numbers
+# Find the "Developer Stats & Achievements" section
+# Update numbers in the gamification box
 # Commit and push
 ```
 
 ### To add projects:
 ```bash
 # Edit README.md
-# Find the Projects Gallery section (around line 351)
+# Find the "Featured Projects Gallery" section
 # Add your project following the existing format
 # Commit and push
 ```
@@ -225,10 +225,10 @@ graph LR
 # Find color codes (look for #667eea, #764ba2, etc.)
 # Replace with your preferred colors
 # Update in multiple places for consistency:
-#   - SVG gradients (lines 18-28)
+#   - SVG gradients (in the Hero Section)
 #   - Badge colors (search for labelColor=)
-#   - Mermaid styles (lines 266-271)
-#   - Stats card colors (lines 316-318)
+#   - Mermaid styles (in the Journey Timeline section)
+#   - Stats card colors (in the GitHub Statistics section)
 # Commit and push
 ```
 
