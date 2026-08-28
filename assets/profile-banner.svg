@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-labelledby="title description">
+  <title id="title">Suthankan Balenthiran</title>
+  <desc id="description">Software engineering intern candidate specializing in full-stack, backend, and applied AI systems.</desc>
+
+  <rect width="1200" height="320" fill="#0B1117" />
+
+  <g fill="none" stroke="#22303D" stroke-width="1" opacity="0.55">
+    <path d="M0 64H1200M0 128H1200M0 192H1200M0 256H1200" />
+    <path d="M80 0V320M240 0V320M400 0V320M560 0V320M720 0V320M880 0V320M1040 0V320" />
+  </g>
+
+  <rect x="0" y="0" width="520" height="6" fill="#2DD4BF" />
+  <rect x="520" y="0" width="360" height="6" fill="#4F8CFF" />
+  <rect x="880" y="0" width="320" height="6" fill="#86EFAC" />
+  <rect x="48" y="64" width="8" height="186" fill="#2DD4BF" />
+
+  <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" letter-spacing="0">
+    <text x="80" y="112" fill="#F8FAFC" font-size="48" font-weight="700">Suthankan Balenthiran</text>
+    <text x="80" y="158" fill="#93C5FD" font-size="25" font-weight="600">Software Engineering Intern Candidate</text>
+    <text x="80" y="202" fill="#CBD5E1" font-size="18">Full-stack products, backend systems, and applied AI</text>
+
+    <text x="80" y="260" fill="#86EFAC" font-size="16" font-weight="600">JAVA + SPRING BOOT</text>
+    <circle cx="274" cy="254" r="3" fill="#64748B" />
+    <text x="292" y="260" fill="#93C5FD" font-size="16" font-weight="600">TYPESCRIPT + NEXT.JS</text>
+    <circle cx="503" cy="254" r="3" fill="#64748B" />
+    <text x="521" y="260" fill="#C4B5FD" font-size="16" font-weight="600">AI SYSTEMS</text>
+  </g>
+
+  <g transform="translate(858 42)">
+    <rect width="286" height="42" rx="5" fill="#102A27" stroke="#2DD4BF" />
+    <circle cx="24" cy="21" r="6" fill="#86EFAC" />
+    <text x="43" y="27" fill="#D1FAE5" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="700" letter-spacing="0">OPEN TO INTERNSHIPS</text>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-weight="700" opacity="0.16">
+    <text x="892" y="192" fill="#93C5FD" font-size="72">&lt;/&gt;</text>
+    <text x="1025" y="262" fill="#2DD4BF" font-size="34">build()</text>
+  </g>
+
+  <text x="1120" y="302" text-anchor="end" fill="#94A3B8" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="14" letter-spacing="0">BSc IT @ University of Moratuwa</text>
+</svg>
