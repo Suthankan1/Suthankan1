@@ -67,13 +67,13 @@ Experience my projects, architecture, and tech stacks as an interactive 2D arcad
 
 ---
 
-## 🏁 The Balenthiran Grand Prix Circuit Map
+## 🏁 The Suthankan Grand Prix Circuit Map
 
 Trace my engineering journey along the track — from core language engines and distributed event chicanes to production-grade project pit stops and academic podium finishes:
 
 <div align="center">
   <a href="https://suthankan1.github.io/Suthankan1/">
-    <img src="./assets/circuit-map.svg" alt="The Balenthiran Grand Prix Circuit Map" width="100%" />
+    <img src="./assets/circuit-map.svg" alt="The Suthankan Grand Prix Circuit Map" width="100%" />
   </a>
 </div>
 
@@ -250,6 +250,6 @@ Contributing upstream to developer tools and open-source ecosystems:
   </a>
 
   <br /><br />
-  <sub>Engineered for speed, reliability &amp; precision · <strong>Suthankan Balenthiran</strong></sub>
+  <sub>Engineered for speed, reliability &amp; precision · <strong>Suthankan</strong></sub>
 
 </div>

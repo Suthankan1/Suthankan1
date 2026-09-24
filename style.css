@@ -52,8 +52,10 @@ body, html {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
   pointer-events: none;
-  z-index: 10;
+  z-index: 15;
 }
 
 .brand-badge {
@@ -607,10 +609,31 @@ body, html {
     display: none;
   }
   .speedo-card {
-    padding: 10px 14px;
-    min-width: 140px;
+    padding: 8px 12px;
+    min-width: 125px;
   }
   .speedo-val {
-    font-size: 28px;
+    font-size: 26px;
+  }
+  #proximityAlert {
+    top: 110px;
+    width: 90%;
+    max-width: 360px;
+    justify-content: center;
+    padding: 10px 16px;
+  }
+}
+
+@media (max-height: 500px) {
+  #topBar {
+    top: 8px;
+  }
+  #bottomTelemetry {
+    bottom: auto;
+    top: 55px;
+    left: 14px;
+  }
+  #proximityAlert {
+    top: 55px;
   }
 }
