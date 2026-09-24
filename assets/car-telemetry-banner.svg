@@ -1,0 +1,296 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 380" width="100%" height="100%" style="background: #090d16; border-radius: 16px; overflow: hidden; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;">
+  <defs>
+    <!-- Background Gradients -->
+    <radialGradient id="skyGlow" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#1e1b4b" stop-opacity="0.9" />
+      <stop offset="60%" stop-color="#090d16" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#05070d" stop-opacity="1" />
+    </radialGradient>
+
+    <linearGradient id="cyberSun" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f43f5e" />
+      <stop offset="50%" stop-color="#fb923c" />
+      <stop offset="100%" stop-color="#facc15" />
+    </linearGradient>
+
+    <linearGradient id="roadGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+
+    <linearGradient id="neonCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+
+    <linearGradient id="gaugeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="65%" stop-color="#38bdf8" />
+      <stop offset="85%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#ef4444" />
+    </linearGradient>
+
+    <!-- Glow Filters -->
+    <filter id="glowCyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="glowRed" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes roadMove {
+      0% { stroke-dashoffset: 0; }
+      100% { stroke-dashoffset: 80; }
+    }
+    @keyframes tachoRev {
+      0% { stroke-dashoffset: 280; }
+      50% { stroke-dashoffset: 80; }
+      70% { stroke-dashoffset: 110; }
+      100% { stroke-dashoffset: 65; }
+    }
+    @keyframes exhaustPulse {
+      0% { opacity: 0.7; transform: scaleY(1); }
+      50% { opacity: 1; transform: scaleY(1.3); }
+      100% { opacity: 0.7; transform: scaleY(1); }
+    }
+    @keyframes carDrift {
+      0% { transform: translate(0, 0); }
+      25% { transform: translate(-3px, 1px); }
+      50% { transform: translate(0, -1px); }
+      75% { transform: translate(3px, 1px); }
+      100% { transform: translate(0, 0); }
+    }
+    @keyframes scanline {
+      0% { transform: translateY(-100%); }
+      100% { transform: translateY(100%); }
+    }
+    .road-dash {
+      animation: roadMove 0.7s linear infinite;
+    }
+    .exhaust-left {
+      transform-origin: 472px 282px;
+      animation: exhaustPulse 0.15s ease-in-out infinite;
+    }
+    .exhaust-right {
+      transform-origin: 528px 282px;
+      animation: exhaustPulse 0.18s ease-in-out infinite;
+    }
+    .car-chassis {
+      animation: carDrift 4s ease-in-out infinite;
+      transform-origin: 500px 250px;
+    }
+    .tach-needle {
+      animation: tachoRev 3.5s ease-in-out infinite alternate;
+    }
+  </style>
+
+  <!-- Deep Cyber Sky -->
+  <rect width="1000" height="380" fill="url(#skyGlow)" />
+
+  <!-- Stars / Digital Dust -->
+  <g fill="#94a3b8" opacity="0.4">
+    <circle cx="120" cy="45" r="1" />
+    <circle cx="280" cy="30" r="1.5" />
+    <circle cx="450" cy="50" r="1" />
+    <circle cx="680" cy="35" r="1.2" />
+    <circle cx="840" cy="60" r="1" />
+    <circle cx="920" cy="25" r="1.5" />
+    <circle cx="60" cy="90" r="1" />
+    <circle cx="390" cy="95" r="1.2" />
+    <circle cx="750" cy="85" r="1" />
+  </g>
+
+  <!-- Cyber Sun / Horizon Glow -->
+  <circle cx="500" cy="180" r="70" fill="url(#cyberSun)" opacity="0.85" filter="url(#glowRed)" />
+  <g fill="#090d16" opacity="0.95">
+    <rect x="420" y="145" width="160" height="3" />
+    <rect x="420" y="153" width="160" height="4" />
+    <rect x="420" y="162" width="160" height="6" />
+    <rect x="420" y="173" width="160" height="8" />
+  </g>
+
+  <!-- Synthwave Grid Horizon & Distant Mountains -->
+  <polygon points="360,195 440,165 500,190 560,160 640,195" fill="#1e1b4b" opacity="0.6" />
+  <polygon points="200,195 320,150 420,195" fill="#312e81" opacity="0.4" />
+  <polygon points="580,195 680,145 800,195" fill="#312e81" opacity="0.4" />
+
+  <!-- Highway Road (Perspective View) -->
+  <polygon points="460,195 540,195 860,380 140,380" fill="url(#roadGrad)" />
+  
+  <!-- Neon Guardrails -->
+  <line x1="460" y1="195" x2="140" y2="380" stroke="#38bdf8" stroke-width="3" filter="url(#glowCyan)" />
+  <line x1="540" y1="195" x2="860" y2="380" stroke="#38bdf8" stroke-width="3" filter="url(#glowCyan)" />
+  
+  <!-- Outer Road Edge Glow -->
+  <line x1="455" y1="195" x2="110" y2="380" stroke="#f43f5e" stroke-width="1.5" opacity="0.6" />
+  <line x1="545" y1="195" x2="890" y2="380" stroke="#f43f5e" stroke-width="1.5" opacity="0.6" />
+
+  <!-- Animated Lane Dividers (Speedway Stripes) -->
+  <line x1="500" y1="195" x2="500" y2="380" stroke="#facc15" stroke-width="4" stroke-dasharray="16, 24" class="road-dash" filter="url(#glowCyan)" />
+  <line x1="480" y1="195" x2="320" y2="380" stroke="#64748b" stroke-width="2" stroke-dasharray="12, 28" class="road-dash" opacity="0.5" />
+  <line x1="520" y1="195" x2="680" y2="380" stroke="#64748b" stroke-width="2" stroke-dasharray="12, 28" class="road-dash" opacity="0.5" />
+
+  <!-- High Performance Sports Car (Rear View) -->
+  <g class="car-chassis">
+    <!-- Shadow & Road Reflection -->
+    <ellipse cx="500" cy="285" rx="55" ry="10" fill="#000000" opacity="0.8" />
+    <ellipse cx="500" cy="282" rx="42" ry="5" fill="#f43f5e" opacity="0.3" filter="url(#glowRed)" />
+
+    <!-- Exhaust Flames -->
+    <polygon points="468,280 472,298 476,280" fill="#38bdf8" class="exhaust-left" filter="url(#glowCyan)" />
+    <polygon points="470,280 472,292 474,280" fill="#ffffff" class="exhaust-left" />
+    <polygon points="524,280 528,298 532,280" fill="#38bdf8" class="exhaust-right" filter="url(#glowCyan)" />
+    <polygon points="526,280 528,292 530,280" fill="#ffffff" class="exhaust-right" />
+
+    <!-- Car Body / Carbon Fiber Rear -->
+    <path d="M 458 274 L 464 246 L 476 232 L 524 232 L 536 246 L 542 274 L 534 282 L 466 282 Z" fill="#0f172a" stroke="#1e293b" stroke-width="1.5" />
+    
+    <!-- Cyberpunk Rear Diffuser & Exhaust Tips -->
+    <rect x="466" y="275" width="68" height="7" rx="2" fill="#020617" stroke="#334155" stroke-width="1" />
+    <rect x="488" y="276" width="24" height="5" fill="#f43f5e" opacity="0.8" />
+    <ellipse cx="472" cy="279" rx="4" ry="3" fill="#334155" stroke="#64748b" stroke-width="1" />
+    <ellipse cx="528" cy="279" rx="4" ry="3" fill="#334155" stroke="#64748b" stroke-width="1" />
+
+    <!-- Neon Taillights Lightbar -->
+    <path d="M 462 254 L 538 254" stroke="#f43f5e" stroke-width="4.5" stroke-linecap="round" filter="url(#glowRed)" />
+    <path d="M 464 254 L 536 254" stroke="#fecdd3" stroke-width="1.5" stroke-linecap="round" />
+
+    <!-- Rear Window & Roof Cockpit -->
+    <path d="M 478 232 L 484 218 L 516 218 L 522 232 Z" fill="#020617" stroke="#38bdf8" stroke-width="1" opacity="0.9" />
+    <path d="M 488 222 L 512 222" stroke="#38bdf8" stroke-width="1" opacity="0.5" />
+
+    <!-- Aero Rear Wing / Spoiler -->
+    <path d="M 448 234 L 552 234 L 554 228 L 446 228 Z" fill="#0284c7" filter="url(#glowCyan)" opacity="0.9" />
+    <rect x="468" y="234" width="4" height="12" fill="#1e293b" />
+    <rect x="528" y="234" width="4" height="12" fill="#1e293b" />
+
+    <!-- License Plate -->
+    <rect x="488" y="262" width="24" height="8" rx="1.5" fill="#020617" stroke="#38bdf8" stroke-width="0.8" />
+    <text x="500" y="268.5" fill="#38bdf8" font-size="5.5" font-weight="900" text-anchor="middle" letter-spacing="1">BALA-1</text>
+  </g>
+
+  <!-- LEFT TELEMETRY POD: SPEEDOMETER & TACHOMETER -->
+  <g transform="translate(40, 40)">
+    <!-- Glassmorphic Cockpit Shell -->
+    <rect width="250" height="135" rx="12" fill="#0b1120" fill-opacity="0.85" stroke="#1e293b" stroke-width="1.5" />
+    <rect x="0" y="0" width="250" height="4" rx="2" fill="url(#neonCyan)" />
+
+    <!-- Cluster Header -->
+    <text x="20" y="24" fill="#94a3b8" font-size="10" font-weight="700" letter-spacing="1.5">TELEMETRY // CLUSTER A</text>
+    <circle cx="230" cy="20" r="4" fill="#10b981" filter="url(#glowCyan)" />
+
+    <!-- Speed Gauge Arc -->
+    <circle cx="70" cy="78" r="42" fill="none" stroke="#1e293b" stroke-width="7" stroke-dasharray="190, 260" stroke-linecap="round" />
+    <circle cx="70" cy="78" r="42" fill="none" stroke="url(#gaugeGrad)" stroke-width="7" stroke-dasharray="140, 260" stroke-linecap="round" class="tach-needle" />
+
+    <!-- Digital Speed Readout -->
+    <text x="70" y="76" fill="#f8fafc" font-size="20" font-weight="900" text-anchor="middle">180</text>
+    <text x="70" y="89" fill="#38bdf8" font-size="8" font-weight="800" text-anchor="middle" letter-spacing="1">KM/H</text>
+    <text x="70" y="103" fill="#64748b" font-size="7" font-weight="600" text-anchor="middle">DISTRIBUTED</text>
+
+    <!-- Gear Indicator & Engine Specs -->
+    <g transform="translate(135, 38)">
+      <rect width="95" height="78" rx="8" fill="#030712" stroke="#334155" stroke-width="1" />
+      <text x="14" y="20" fill="#64748b" font-size="8" font-weight="700">GEAR</text>
+      <text x="14" y="46" fill="#f43f5e" font-size="26" font-weight="900" filter="url(#glowRed)">D6</text>
+      
+      <text x="50" y="20" fill="#64748b" font-size="8" font-weight="700">RPM</text>
+      <text x="50" y="34" fill="#38bdf8" font-size="12" font-weight="900">8,500</text>
+
+      <text x="14" y="65" fill="#10b981" font-size="8" font-weight="800">TURBO: 3.74 BAR</text>
+      <text x="50" y="73" fill="#94a3b8" font-size="6.5" font-weight="600">MORATUWA GPA</text>
+    </g>
+
+    <!-- Engine Mode Pill -->
+    <rect x="20" y="116" width="210" height="12" rx="4" fill="#020617" />
+    <rect x="20" y="116" width="168" height="12" rx="4" fill="url(#neonCyan)" opacity="0.3" />
+    <text x="125" y="125" fill="#38bdf8" font-size="7.5" font-weight="800" text-anchor="middle" letter-spacing="1.5">SPRING BOOT 4 • KAFKA • GO • .NET 10</text>
+  </g>
+
+  <!-- RIGHT TELEMETRY POD: DRIVER HUD & STATUS -->
+  <g transform="translate(710, 40)">
+    <rect width="250" height="135" rx="12" fill="#0b1120" fill-opacity="0.85" stroke="#1e293b" stroke-width="1.5" />
+    <rect x="0" y="0" width="250" height="4" rx="2" fill="url(#cyberSun)" />
+
+    <!-- Driver Info -->
+    <text x="20" y="24" fill="#94a3b8" font-size="10" font-weight="700" letter-spacing="1.5">DRIVER PROFILE // GRID 01</text>
+    <rect x="180" y="14" width="50" height="13" rx="3" fill="#10b981" fill-opacity="0.2" stroke="#10b981" stroke-width="0.8" />
+    <text x="205" y="23" fill="#10b981" font-size="7.5" font-weight="800" text-anchor="middle">ACTIVE</text>
+
+    <text x="20" y="47" fill="#f8fafc" font-size="14" font-weight="900" letter-spacing="0.5">SUTHANKAN BALA</text>
+    <text x="20" y="60" fill="#38bdf8" font-size="9" font-weight="700">SOFTWARE ENGINEER // SYSTEMS</text>
+
+    <!-- Track Status / Target -->
+    <g transform="translate(20, 70)">
+      <rect width="210" height="45" rx="6" fill="#030712" stroke="#1e293b" stroke-width="1" />
+      <circle cx="16" cy="16" r="4" fill="#10b981" filter="url(#glowCyan)" />
+      <text x="28" y="19" fill="#10b981" font-size="8.5" font-weight="800">PIT WALL COMM: OPEN FOR RACES</text>
+      <text x="14" y="34" fill="#94a3b8" font-size="8" font-weight="600">SE &amp; DevOps Internships (Sri Lanka / Remote)</text>
+    </g>
+
+    <!-- Lap Progress Bar -->
+    <rect x="20" y="122" width="210" height="4" rx="2" fill="#1e293b" />
+    <rect x="20" y="122" width="175" height="4" rx="2" fill="#f43f5e" filter="url(#glowRed)" />
+  </g>
+
+  <!-- TOP COCKPIT HEADER BAR -->
+  <g transform="translate(500, 42)">
+    <rect x="-140" y="-14" width="280" height="28" rx="14" fill="#020617" stroke="#38bdf8" stroke-width="1.2" filter="url(#glowCyan)" />
+    <text x="0" y="4" fill="#f8fafc" font-size="11" font-weight="900" text-anchor="middle" letter-spacing="3">🏎️ BALENTHIRAN GRAND PRIX</text>
+  </g>
+
+  <!-- LOWER RACING DOCK: PIT SWITCHES & CONTROLS -->
+  <g transform="translate(500, 345)">
+    <rect x="-380" y="-22" width="760" height="44" rx="10" fill="#030712" fill-opacity="0.9" stroke="#334155" stroke-width="1.2" />
+    
+    <!-- Dock Title -->
+    <text x="-360" y="5" fill="#64748b" font-size="9" font-weight="800" letter-spacing="1">DOCK //</text>
+
+    <!-- Switches: Portfolio, CVs, LinkedIn, Comms -->
+    <!-- Button 1: Web Portfolio -->
+    <g transform="translate(-290, -13)">
+      <rect width="110" height="26" rx="6" fill="#0b1120" stroke="#38bdf8" stroke-width="1" />
+      <circle cx="14" cy="13" r="3" fill="#38bdf8" />
+      <text x="24" y="16" fill="#f8fafc" font-size="8.5" font-weight="800">🌐 PORTFOLIO</text>
+    </g>
+
+    <!-- Button 2: SE CV -->
+    <g transform="translate(-165, -13)">
+      <rect width="115" height="26" rx="6" fill="#0b1120" stroke="#0284c7" stroke-width="1" />
+      <circle cx="14" cy="13" r="3" fill="#0284c7" />
+      <text x="24" y="16" fill="#f8fafc" font-size="8.5" font-weight="800">📄 SE RESUME</text>
+    </g>
+
+    <!-- Button 3: DevOps CV -->
+    <g transform="translate(-35, -13)">
+      <rect width="115" height="26" rx="6" fill="#0b1120" stroke="#0d9488" stroke-width="1" />
+      <circle cx="14" cy="13" r="3" fill="#0d9488" />
+      <text x="24" y="16" fill="#f8fafc" font-size="8.5" font-weight="800">⚡ DEVOPS CV</text>
+    </g>
+
+    <!-- Button 4: LinkedIn -->
+    <g transform="translate(95, -13)">
+      <rect width="110" height="26" rx="6" fill="#0b1120" stroke="#0a66c2" stroke-width="1" />
+      <circle cx="14" cy="13" r="3" fill="#0a66c2" />
+      <text x="24" y="16" fill="#f8fafc" font-size="8.5" font-weight="800">💼 LINKEDIN</text>
+    </g>
+
+    <!-- Button 5: Email Comms -->
+    <g transform="translate(220, -13)">
+      <rect width="145" height="26" rx="6" fill="#0b1120" stroke="#10b981" stroke-width="1" />
+      <circle cx="14" cy="13" r="3" fill="#10b981" />
+      <text x="24" y="16" fill="#f8fafc" font-size="8.5" font-weight="800">✉️ PIT RADIO COMMS</text>
+    </g>
+  </g>
+</svg>

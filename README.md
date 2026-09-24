@@ -1,11 +1,17 @@
 <div align="center">
 
-  <!-- HERO BANNER -->
-  <img src="./assets/profile-super-banner.svg" alt="Suthankan Balenthiran - Software Engineer" width="100%" />
+  <!-- COCKPIT TELEMETRY HUD BANNER -->
+  <a href="https://suthankan1.github.io/Suthankan1/">
+    <img src="./assets/car-telemetry-banner.svg" alt="Suthankan Balenthiran - Grand Prix Telemetry Cockpit" width="100%" />
+  </a>
 
   <br /><br />
 
-  <!-- QUICK ACTION DOCK -->
+  <!-- QUICK ACTION PIT DOCK -->
+  <a href="https://suthankan1.github.io/Suthankan1/">
+    <img src="https://img.shields.io/badge/🎮_Play_Car_Game-0284C7?style=for-the-badge&logo=googleplay&logoColor=white" alt="Play Car Game" />
+  </a>
+  &nbsp;
   <a href="https://www.suthankan.tech/">
     <img src="https://img.shields.io/badge/Portfolio-090D16?style=for-the-badge&logo=vercel&logoColor=38BDF8" alt="Portfolio" />
   </a>
@@ -23,17 +29,17 @@
   </a>
   &nbsp;
   <a href="mailto:suthankanbala2019@gmail.com">
-    <img src="https://img.shields.io/badge/Email-10B981?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/Pit_Radio_Email-10B981?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
 
   <br /><br />
 
-  <!-- STATUS PILLS -->
-  <img src="https://img.shields.io/badge/🟢_Available_for-Software_Engineering_%26_DevOps_Internships-10B981?style=flat-square&labelColor=064E3B" alt="Available for Internships" />
+  <!-- TELEMETRY STATUS PILLS -->
+  <img src="https://img.shields.io/badge/🟢_Engine_Status-Race--Ready_%7C_Seeking_SE_%26_DevOps_Internships-10B981?style=flat-square&labelColor=064E3B" alt="Engine Status" />
   &nbsp;
-  <img src="https://img.shields.io/badge/📍_Based_in-Sri_Lanka_%2F_Remote-0284C7?style=flat-square&labelColor=082F49" alt="Location" />
+  <img src="https://img.shields.io/badge/📍_Paddock_Location-Sri_Lanka_%2F_Remote-0284C7?style=flat-square&labelColor=082F49" alt="Location" />
   &nbsp;
-  <img src="https://img.shields.io/badge/🎓_Moratuwa_IT-GPA_3.74_%2F_4.0-8B5CF6?style=flat-square&labelColor=3B0764" alt="GPA" />
+  <img src="https://img.shields.io/badge/🎓_Moratuwa_IT-Track_Record_GPA_3.74_%2F_4.0-8B5CF6?style=flat-square&labelColor=3B0764" alt="GPA" />
 
 </div>
 
@@ -41,18 +47,52 @@
 
 ---
 
-## 👋 Hey, I'm Suthankan!
+## 🎮 Playable Interactive Car Game Portfolio
 
-I am an Information Technology undergraduate at the **University of Moratuwa** building backend, distributed, and cloud-native systems. I enjoy turning complex system requirements into reliable, production-grade software with deterministic boundaries, event streaming, and fail-closed security.
+Experience my projects, architecture, and tech stacks as an interactive 2D arcade racing game! Drive the cyber-racer down neon highways, explore project buildings, collect tech orbs, and test drive the architecture.
 
-* 🎓 **Academics:** BSc (Hons) in Information Technology (2024–2028) · Semester GPAs: L1S1 **3.76**, L1S2 **3.72**, L2S1 **3.74**.
-* ⚡ **Engineering Focus:** Distributed Systems, Transactional Outbox pipelines, API Gateways, Zero-Trust security, and Cloud Platforms.
-* 🌐 **Open Source:** Upstream contributor to **Telegram Desktop**, **Testcontainers Java**, and **Ballerina Platform**.
-* 🚀 **Seeking:** Software Engineering, Backend, Platform, or DevOps Internship opportunities.
+<div align="center">
+  <a href="https://suthankan1.github.io/Suthankan1/">
+    <img src="./assets/devracer-arcade-banner.svg" alt="DevRacer Arcade Game Banner" width="100%" />
+  </a>
+</div>
+
+<br />
+
+> 🏎️ **How to Play:**
+> * **[W / ⬆️]** Accelerate &nbsp;|&nbsp; **[S / ⬇️]** Brake &amp; Reverse &nbsp;|&nbsp; **[A / ⬅️]** Steer Left &nbsp;|&nbsp; **[D / ➡️]** Steer Right
+> * **[SPACE]** Turbo Nitro Boost &nbsp;|&nbsp; **[E]** Enter Project Pit-Stop / Inspect Bay
+> * **[T]** Recruiter Autopilot Cruise Tour &nbsp;|&nbsp; **[H]** Car Horn
+> * 👉 **[Click Here to Launch DevRacer Live in Your Browser](https://suthankan1.github.io/Suthankan1/)**
 
 ---
 
-## 🛠️ Tech Stack &amp; Tools
+## 🏁 The Balenthiran Grand Prix Circuit Map
+
+Trace my engineering journey along the track — from core language engines and distributed event chicanes to production-grade project pit stops and academic podium finishes:
+
+<div align="center">
+  <a href="https://suthankan1.github.io/Suthankan1/">
+    <img src="./assets/circuit-map.svg" alt="The Balenthiran Grand Prix Circuit Map" width="100%" />
+  </a>
+</div>
+
+<br />
+
+---
+
+## 👋 Driver Profile: Who Am I?
+
+I am an Information Technology undergraduate at the **University of Moratuwa** building high-throughput backend, distributed, and cloud-native systems. I design architectures that operate reliably under high load with deterministic boundaries, event-driven streaming, and fail-closed security.
+
+* 🎓 **Academics &amp; Lap Times:** BSc (Hons) in Information Technology (2024–2028) · Semester GPAs: L1S1 **3.76**, L1S2 **3.72**, L2S1 **3.74**.
+* ⚡ **Engineering Powertrain:** Distributed Systems, Transactional Outbox pipelines, API Gateways, Zero-Trust security, and Cloud Platforms.
+* 🌐 **Upstream Lap Records:** Contributor to **Telegram Desktop**, **Testcontainers Java**, and **Ballerina Platform**.
+* 🚀 **Open For Internships:** Software Engineering, Backend, Platform, or DevOps Internship opportunities (Sri Lanka / Remote).
+
+---
+
+## 🔧 Pit Stop Spares &amp; Performance Parts (Tech Stacks)
 
 <div align="center">
   <a href="https://skillicons.dev">
@@ -62,42 +102,20 @@ I am an Information Technology undergraduate at the **University of Moratuwa** b
 
 <br />
 
-* **Languages:** Java 25, Go (Golang), C# (.NET 10), TypeScript, JavaScript, Python, C/C++, SQL
-* **Backend &amp; Distributed:** Spring Boot 4, Spring Modulith, ASP.NET Core, Apache Kafka, gRPC, Protobuf, GraphQL, WebSockets, OCPP 2.0.1
-* **Data &amp; Cloud:** PostgreSQL, Redis, Flyway, EF Core, Docker, AWS (ECS, RDS, VPC), Terraform, Linux, GitHub Actions, OpenTelemetry
+* 🏎️ **Powertrain (Languages):** Java 25, Go (Golang), C# (.NET 10), TypeScript, JavaScript, Python, C/C++, SQL
+* ⚡ **Forced Induction (Backend &amp; Messaging):** Spring Boot 4, Spring Modulith, ASP.NET Core, Apache Kafka, gRPC, Protobuf, GraphQL, WebSockets, OCPP 2.0.1
+* 🛡️ **Chassis &amp; Infrastructure (Data &amp; Cloud):** PostgreSQL, Redis, Flyway, EF Core, Docker, AWS (ECS, RDS, VPC), Terraform, Linux, GitHub Actions, OpenTelemetry
+* 🎛️ **Cockpit Interface (Frontend &amp; Tools):** React, Next.js, React Native, Vite, Tailwind CSS, Git
 
 ---
 
-## 📊 Contribution Graphs &amp; Telemetry
-
-<div align="center">
-
-  <!-- 3D CONTRIBUTION CITYSCAPE GRAPH -->
-  <img src="./profile-3d-contrib/profile-night-view.svg" width="100%" alt="Suthankan's 3D GitHub Contribution Graph" />
-
-  <br /><br />
-
-  <!-- ANIMATED CONTRIBUTION GRID SNAKE -->
-  <img src="./assets/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution Grid Snake Animation" />
-
-  <br /><br />
-
-  <!-- GITHUB STREAK TELEMETRY -->
-  <a href="https://github.com/Suthankan1">
-    <img src="https://streak-stats.demolab.com?user=Suthankan1&theme=tokyonight&background=090D16&ring=38BDF8&fire=F43F5E&currStreakLabel=38BDF8" width="100%" alt="GitHub Streak Stats" />
-  </a>
-
-</div>
-
----
-
-## 🚀 Flagship Projects
+## 🏎️ The Hypercar Tuner Garage (Flagship Projects)
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <h3>⚡ VoltGrid</h3>
-      <p><em>Distributed EV Charging Network Platform</em></p>
+      <p><em>EV Charging Station Network Platform</em></p>
       <p>A multi-service platform managing EV charge stations across 3 independent Spring Boot services with OCPP 2.0.1 WebSockets, gRPC, and Kafka.</p>
       <ul>
         <li><strong>Transactional Outbox:</strong> Eliminates dual-write inconsistencies between PostgreSQL and Kafka.</li>
@@ -106,7 +124,7 @@ I am an Information Technology undergraduate at the **University of Moratuwa** b
       <p><code>Java 25</code> <code>Spring Boot 4</code> <code>Kafka</code> <code>gRPC</code> <code>PostgreSQL</code> <code>AWS ECS</code> <code>Terraform</code></p>
       <p>
         <a href="https://github.com/Suthankan1/voltgrid"><strong>Repository</strong></a> &nbsp;•&nbsp; 
-        <a href="https://github.com/Suthankan1/voltgrid/blob/main/README.md"><strong>Architecture &amp; Demo</strong></a>
+        <a href="https://github.com/Suthankan1/voltgrid/blob/main/README.md"><strong>Architecture &amp; Specs</strong></a>
       </p>
     </td>
     <td width="50%" valign="top">
@@ -159,7 +177,30 @@ I am an Information Technology undergraduate at the **University of Moratuwa** b
 
 ---
 
-## 🌐 Open-Source Contributions
+## 📊 Race Lap Telemetry &amp; Contribution Diagnostics
+
+<div align="center">
+
+  <!-- 3D CONTRIBUTION CITYSCAPE GRAPH -->
+  <img src="./profile-3d-contrib/profile-night-view.svg" width="100%" alt="Suthankan's 3D GitHub Contribution Graph" />
+
+  <br /><br />
+
+  <!-- ANIMATED CONTRIBUTION GRID SNAKE -->
+  <img src="./assets/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution Grid Snake Animation" />
+
+  <br /><br />
+
+  <!-- GITHUB STREAK TELEMETRY -->
+  <a href="https://github.com/Suthankan1">
+    <img src="https://streak-stats.demolab.com?user=Suthankan1&theme=tokyonight&background=090D16&ring=38BDF8&fire=F43F5E&currStreakLabel=38BDF8" width="100%" alt="GitHub Streak Stats" />
+  </a>
+
+</div>
+
+---
+
+## 🌐 Open-Source Lap History
 
 Contributing upstream to developer tools and open-source ecosystems:
 
@@ -175,7 +216,7 @@ Contributing upstream to developer tools and open-source ecosystems:
 
 ---
 
-## 🎓 Education &amp; Credentials
+## 🎓 Driver Credentials &amp; Certifications
 
 * 🏛️ **University of Moratuwa** — BSc (Hons) in Information Technology *(2024–2028)* · **GPA 3.74 / 4.0**
 * ☁️ **AWS Educate** — Introduction to Cloud 101 *(2026)*
@@ -189,15 +230,15 @@ Contributing upstream to developer tools and open-source ecosystems:
 
 <div align="center">
 
-  <h3>🤝 Let's Connect &amp; Collaborate</h3>
+  <h3>🤝 Connect with the Pit Wall</h3>
   
   I am actively looking for **Software Engineering, Backend, Platform, and DevOps Internships**.  
-  Feel free to reach out directly:
+  Reach out directly to talk architecture, systems, or projects:
 
   <br />
 
   <a href="mailto:suthankanbala2019@gmail.com">
-    <img src="https://img.shields.io/badge/Send_Email-suthankanbala2019@gmail.com-10B981?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Suthankan" />
+    <img src="https://img.shields.io/badge/Pit_Radio-suthankanbala2019@gmail.com-10B981?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Suthankan" />
   </a>
   &nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/suthankan/">
@@ -209,6 +250,6 @@ Contributing upstream to developer tools and open-source ecosystems:
   </a>
 
   <br /><br />
-  <sub>Designed &amp; Built with precision · <strong>Suthankan Balenthiran</strong></sub>
+  <sub>Engineered for speed, reliability &amp; precision · <strong>Suthankan Balenthiran</strong></sub>
 
 </div>
