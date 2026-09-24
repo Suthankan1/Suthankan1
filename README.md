@@ -1,122 +1,148 @@
 <p align="center">
-  <img src="./assets/profile-banner.svg" alt="Suthankan Balenthiran - software engineering intern candidate" width="100%" />
+  <img src="./assets/profile-banner.svg" alt="Suthankan Balenthiran - software engineering intern focused on backend, distributed systems, and cloud" width="100%" />
 </p>
 
 <p align="center">
-  <a href="https://suthankan-portfolio.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://suthankan.tech/cv.pdf"><img src="https://img.shields.io/badge/Resume-2563EB?style=for-the-badge&logo=readme&logoColor=white" alt="Resume" /></a>
+  <a href="https://www.suthankan.tech/"><img src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://www.suthankan.tech/cv/Suthankan_B_SE.pdf"><img src="https://img.shields.io/badge/Software_Engineering_CV-2563EB?style=for-the-badge&logo=readme&logoColor=white" alt="Software Engineering CV" /></a>
+  <a href="https://www.suthankan.tech/cv/Suthankan_B_DevOps.pdf"><img src="https://img.shields.io/badge/DevOps_CV-0F766E?style=for-the-badge&logo=readme&logoColor=white" alt="DevOps CV" /></a>
   <a href="https://www.linkedin.com/in/suthankan/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:suthankanbala2019@gmail.com"><img src="https://img.shields.io/badge/Email-16A34A?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Open_to-Software_Engineering_Internships-16A34A?style=flat-square" alt="Open to software engineering internships" />
+  <img src="https://img.shields.io/badge/Open_to-Software_Engineering_%26_DevOps_Internships-16A34A?style=flat-square" alt="Open to Software Engineering and DevOps internships" />
   <img src="https://img.shields.io/badge/Based_in-Sri_Lanka-0F766E?style=flat-square" alt="Based in Sri Lanka" />
 </p>
 
 ## Profile
 
-I am an Information Technology undergraduate at the **University of Moratuwa** who enjoys turning complex workflows into reliable, useful software. My recent work spans full-stack platforms, Java backend systems, applied AI, cross-platform mobile development, and computer graphics.
+I am an Information Technology undergraduate at the **University of Moratuwa** building backend, distributed, and cloud-native systems. My work focuses on explicit service boundaries, reliable communication, secure execution, PostgreSQL persistence, automated testing, observability, and delivery through containers and CI/CD.
 
-I am currently seeking a **software engineering internship** where I can contribute to real products, learn from experienced engineers, and grow through thoughtful engineering and team delivery.
+I am seeking a **Software Engineering, Backend, Platform, or DevOps internship** where I can contribute to production-minded systems and grow alongside experienced engineers.
 
-- BSc (Hons) in Information Technology, expected June 2028
-- Strongest in Java, Spring Boot, TypeScript, Next.js, PostgreSQL, and REST API design
-- Experienced in Agile teamwork, technical planning, code review, and project leadership
-- Interested in backend engineering, full-stack development, applied AI, and networking
+- BSc (Hons) in Information Technology, 2024-2028
+- Semester GPAs: L1S1 **3.76**, L1S2 **3.72**, L2S1 **3.74**
+- Primary stack: Java, Go, C#/.NET, Spring Boot, PostgreSQL, Docker, and AWS
+- Engineering interests: distributed systems, platform reliability, API security, and cloud infrastructure
 
-## Selected Work
+## Flagship Engineering Work
+
+### VoltGrid - Distributed EV Charging Network Platform
+
+A reproducible distributed system for EV charging operations. Three independently owned Spring Boot services communicate through OCPP 2.0.1 WebSockets, gRPC, and Kafka, with PostgreSQL persistence boundaries and GraphQL operational APIs.
+
+Implemented transactional outbox publishing, idempotent consumers, duplicate and out-of-order event handling, OpenTelemetry propagation, Testcontainers integration tests, Docker Compose, Terraform, and a verified AWS ECS deployment that was intentionally retired after the deployment milestone.
+
+`Java 25` `Spring Boot 4` `OCPP 2.0.1` `gRPC` `Kafka` `GraphQL` `PostgreSQL` `OpenTelemetry` `Terraform` `AWS`
+
+[Repository](https://github.com/Suthankan1/voltgrid) | [Architecture and local demo](https://github.com/Suthankan1/voltgrid/blob/main/README.md)
+
+### ProofMesh - Runtime Governance for Autonomous Agents
+
+A security-focused runtime governance platform that separates policy decisions from tool execution. A Spring Boot control plane evaluates policy, risk, and human approvals before issuing short-lived execution grants to a Go enforcement gateway.
+
+The gateway verifies ES256 grants offline, enforces exact request binding, blocks replay through durable PostgreSQL claims, strips credentials before forwarding, and fails closed on invalid or unavailable dependencies.
+
+`Java 25` `Spring Modulith` `Go` `PostgreSQL` `Keycloak` `OIDC` `ES256/JWKS` `RFC 8785` `Testcontainers`
+
+[Repository](https://github.com/Suthankan1/proofmesh) | [Security model](https://github.com/Suthankan1/proofmesh#security-model--invariants)
 
 ### Planora - Agile Project Management System
 
 **Team Lead | Five-person team**
 
-Led the development of a full-stack project management platform for planning work through Kanban boards, sprint workflows, task ownership, and progress tracking. Coordinated delivery, reviewed code, and helped align the system with its functional and architectural requirements.
+Led backlog planning, architecture discussions, code reviews, and delivery coordination for a full-stack Scrum and Kanban platform. Contributed across the Next.js frontend, Spring Boot backend, React Native and PWA experiences, PostgreSQL workflows, security improvements, and CI/CD.
 
-`TypeScript` `Next.js` `Java` `Spring Boot` `PostgreSQL` `Agile`
+`Next.js` `React Native` `Java` `Spring Boot` `PostgreSQL` `CI/CD` `Scrum` `Kanban`
 
-[View repository](https://github.com/axzellinnovations/project_management_app) | [View my contributions](https://github.com/axzellinnovations/project_management_app/commits?author=Suthankan1)
+[Live application](https://planora-pma.netlify.app/) | [Repository](https://github.com/axzellinnovations/project_management_app) | [My contributions](https://github.com/axzellinnovations/project_management_app/commits?author=Suthankan1)
 
-### OmniHealth - Hospital Management Ecosystem
+## Currently Building
 
-Built a full-stack healthcare platform covering clinical, pharmacy, billing, diagnostics, emergency, HR, and administrative workflows. The system emphasizes role-based security, auditable actions, reliable data handling, and containerized delivery.
+### SettleCore - Payment Operations and Reconciliation
 
-`Java` `Spring Boot` `Next.js` `TypeScript` `PostgreSQL` `Docker`
+An early-stage C#/.NET 10 backend for payment lifecycle management, provider-reference uniqueness, status transitions, PostgreSQL persistence, and reconciliation-oriented workflows. Development currently emphasizes domain invariants, EF Core migrations, automated unit and integration testing, and strict CI quality gates.
 
-[View repository](https://github.com/Suthankan1/OmniHealth)
+`C#` `.NET 10` `ASP.NET Core` `EF Core` `PostgreSQL` `Integration Testing` `GitHub Actions`
 
-### GrantAI - Grant Discovery and Writing Platform
+[Repository](https://github.com/Suthankan1/SettleCore)
 
-Created a multi-service platform for semantic grant matching, application tracking, AI-assisted cover letters, and interview practice. The architecture combines a modern web client, secured Java APIs, a Python AI service, vector search, caching, and containerized local development.
+## Open-Source Contributions
 
-`Next.js` `Spring Boot` `FastAPI` `Gemini` `pgvector` `Redis` `Docker`
+| Project | Contribution | Status |
+| --- | --- | --- |
+| Telegram Desktop | [Fix Mini App cookies on Linux](https://github.com/telegramdesktop/tdesktop/pull/31086) | Merged |
+| lib_webview | [Allow third-party cookies when requested](https://github.com/desktop-app/lib_webview/pull/146) | Merged |
+| Testcontainers Java | [Avoid changing the global uncaught exception handler](https://github.com/testcontainers/testcontainers-java/pull/12076) | Under review |
+| Ballerina HTTP | [Fix ambiguity diagnostics for HTTP service classes and objects](https://github.com/ballerina-platform/module-ballerina-http/pull/2710) | Under review |
+| Ballerina YAML | [Fix scalar tag regex matching](https://github.com/ballerina-platform/module-ballerina-data.yaml/pull/43) | Under review |
+| WSO2 API Manager | [Fix unnecessary Lambda resource request for API products](https://github.com/wso2/apim-apps/pull/1424) | Under review |
 
-[View repository](https://github.com/Suthankan1/grantai)
-
-### MindTrack - Cross-Platform Wellbeing Platform
-
-Developed web and Flutter experiences backed by Spring Boot for mood journaling, AI-supported insights, coping sessions, therapist discovery, crisis resources, user preferences, and secure authentication.
-
-`Flutter` `Next.js` `Spring Boot` `Gemini` `JWT` `PostgreSQL`
-
-[View repository](https://github.com/Suthankan1/mindtrack)
-
-## More Engineering Work
-
-- **[Solar](https://github.com/Suthankan1/solar)** - A C++ and OpenGL solar-system simulation with custom shaders, textured celestial bodies, camera controls, lighting, bloom, asteroid belts, and scene components.
-- **[Personal Portfolio](https://github.com/Suthankan1/suthankan-portfolio)** - A Next.js and TypeScript portfolio with MDX content, project case studies, search, analytics, dynamic social images, and a polished contact flow.
+Another active patch improves concurrent proxy checks in [Telegram Desktop](https://github.com/telegramdesktop/tdesktop/pull/31112).
 
 ## Technical Toolbox
 
 <table>
   <tr>
     <td><strong>Languages</strong></td>
-    <td>Java, TypeScript, JavaScript, Python, C, C++, Dart</td>
-  </tr>
-  <tr>
-    <td><strong>Frontend</strong></td>
-    <td>React, Next.js, Flutter, HTML, CSS, Tailwind CSS</td>
+    <td>Java, Go, C#, TypeScript, JavaScript, Python, C, SQL</td>
   </tr>
   <tr>
     <td><strong>Backend</strong></td>
-    <td>Spring Boot, FastAPI, REST APIs, Spring Security, JWT, JPA</td>
+    <td>Spring Boot, Spring Modulith, ASP.NET Core, REST APIs, GraphQL, gRPC, Protocol Buffers</td>
   </tr>
   <tr>
-    <td><strong>Data and AI</strong></td>
-    <td>PostgreSQL, pgvector, Redis, Gemini, LangChain, semantic search</td>
+    <td><strong>Distributed Systems</strong></td>
+    <td>Kafka, transactional outbox, idempotency, concurrency control, OCPP 2.0.1, WebSockets</td>
   </tr>
   <tr>
-    <td><strong>Infrastructure</strong></td>
-    <td>Docker, GitHub Actions, Vercel, Cloudflare, Git</td>
+    <td><strong>Security</strong></td>
+    <td>Spring Security, Keycloak, OIDC, JWT/JWS, ES256, JWKS, fail-closed validation</td>
   </tr>
   <tr>
-    <td><strong>Networking</strong></td>
-    <td>Routing, network topology, Cisco Packet Tracer, CCNA preparation</td>
+    <td><strong>Data and Testing</strong></td>
+    <td>PostgreSQL, Flyway, EF Core, Testcontainers, unit and integration testing</td>
+  </tr>
+  <tr>
+    <td><strong>Cloud and Platform</strong></td>
+    <td>Linux, Docker, AWS ECS/RDS/VPC, Terraform, GitHub Actions, OpenTelemetry, Cloudflare</td>
+  </tr>
+  <tr>
+    <td><strong>Frontend</strong></td>
+    <td>React, Next.js, React Native, Progressive Web Apps, HTML, CSS</td>
   </tr>
 </table>
 
-## Leadership and Community
+## Additional Work
 
-- **Customer Relations Team Leader, AIESEC** - Led a team, coordinated cross-functional communication, and organized customer engagement operations.
-- **Microsoft Learn Student Ambassador - Alpha** - Promoted technical learning and shared Microsoft development resources within the university community.
-- **Project Leadership** - Plan work using Agile practices, coordinate responsibilities, review contributions, and keep delivery aligned with requirements.
+- **[GrantAI](https://github.com/Suthankan1/grantai)** - Semantic grant matching, application tracking, streamed AI writing, and interview practice across Next.js, Spring Boot, FastAPI, pgvector, Redis, and Docker.
+- **[MindTrack](https://github.com/Suthankan1/mindtrack)** - Cross-platform wellbeing system built with Flutter, Next.js, Spring Boot, mood analytics, AI insights, therapist discovery, and crisis resources.
+- **[OmniHealth](https://github.com/Suthankan1/OmniHealth)** - Hospital management ecosystem covering clinical, pharmacy, billing, diagnostics, emergency, HR, and administrative workflows.
+- **[Solar](https://github.com/Suthankan1/solar)** - C++ and OpenGL solar-system simulation with custom shaders, textured celestial bodies, lighting, bloom, and scene components.
 
-## Education
+## Education and Credentials
 
 **University of Moratuwa**<br />
 Bachelor of Science Honours in Information Technology<br />
-March 2024 - Expected June 2028
+2024-2028
 
-## Contribution Activity
+- REST API (Intermediate), HackerRank - 2026
+- AWS Educate Introduction to Cloud 101 - 2026
+- Linux for Cloud and DevOps Engineers, Packt - 2026
+- CCNA: Introduction to Networks, Cisco - 2026
+- Postman API Fundamentals Student Expert - 2025
+- Developing Front-End Apps with React, IBM - 2025
 
-<p align="center">
-  <img src="./profile-3d-contrib/profile-night-view.svg" alt="Suthankan's GitHub contribution activity" width="100%" />
-</p>
+## Leadership and Community
+
+- **Customer Relations Team Leader, AIESEC** - Led stakeholder engagement, cross-functional coordination, task ownership, and delivery follow-up.
+- **Microsoft Learn Student Ambassador - Alpha** - Promoted technical learning and facilitated discussions around software engineering practices and Microsoft development tools.
 
 ---
 
 <p align="center">
-  I am open to internship opportunities in software engineering, full-stack development, backend engineering, and applied AI.
+  Open to Software Engineering, Backend, Platform, and DevOps internship opportunities.
   <br />
   <a href="mailto:suthankanbala2019@gmail.com"><strong>Start a conversation</strong></a>
 </p>
