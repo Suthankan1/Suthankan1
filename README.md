@@ -68,25 +68,26 @@ I am an Information Technology undergraduate at the **University of Moratuwa** b
 
 ---
 
-## 📊 Contribution Activity &amp; Telemetry
+## 📊 Contribution Graphs &amp; Telemetry
 
-### 📈 Activity Wave Trend
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Suthankan1&theme=tokyo-night&bg_color=090D16&color=38BDF8&line=38BDF8&point=34D399&area=true&hide_border=true" width="100%" alt="Suthankan's GitHub Activity Graph" />
-</p>
+<div align="center">
 
-### 🐍 Contribution Grid Snake
-<p align="center">
+  <!-- 3D CONTRIBUTION CITYSCAPE GRAPH -->
+  <img src="./profile-3d-contrib/profile-night-view.svg" width="100%" alt="Suthankan's 3D GitHub Contribution Graph" />
+
+  <br /><br />
+
+  <!-- ANIMATED CONTRIBUTION GRID SNAKE -->
   <img src="./assets/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution Grid Snake Animation" />
-</p>
 
-<details>
-  <summary><strong>🏙️ Click to view 3D Contribution Cityscape</strong></summary>
-  <br />
-  <p align="center">
-    <img src="./profile-3d-contrib/profile-night-view.svg" width="100%" alt="3D Contribution Cityscape" />
-  </p>
-</details>
+  <br /><br />
+
+  <!-- GITHUB STREAK TELEMETRY -->
+  <a href="https://github.com/Suthankan1">
+    <img src="https://streak-stats.demolab.com?user=Suthankan1&theme=tokyonight&background=090D16&ring=38BDF8&fire=F43F5E&currStreakLabel=38BDF8" width="100%" alt="GitHub Streak Stats" />
+  </a>
+
+</div>
 
 ---
 
