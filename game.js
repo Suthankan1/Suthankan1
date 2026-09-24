@@ -394,8 +394,8 @@ const PROJECTS_DATA = [
   },
   {
     id: 'planora',
-    name: 'Planora Agile Headquarters',
-    category: 'Agile Project Management Platform',
+    name: 'Planora HQ (axzell innovations)',
+    category: 'Production SaaS • Full-Stack',
     color: '#fb923c',
     borderColor: '#c2410c',
     x: 650,
@@ -404,13 +404,13 @@ const PROJECTS_DATA = [
     height: 180,
     pitX: 650,
     pitY: 1720,
-    description: 'Led architecture, sprint planning, and code reviews for a 5-person engineering team delivering an agile Kanban/Scrum project management system.',
+    description: 'Production project management SaaS built at axzell innovations (pvt) Ltd. I own and build the authentication, task management, and document collaboration domains across web and mobile.',
     specs: [
-      { title: 'TEAM LEADERSHIP', desc: 'Directed sprint backlog, PR reviews, role-based ACLs, and delivery milestones.' },
-      { title: 'MULTI-CLIENT ECOSYSTEM', desc: 'Next.js responsive web app and React Native mobile app backed by Spring Boot.' },
-      { title: 'AUTOMATED PIPELINES', desc: 'Automated CI/CD with Netlify web deployments and automated testing.' }
+      { title: 'DOMAINS OWNED', desc: 'Authentication workflows, task state transitions, and document collaboration.' },
+      { title: 'MULTI-CLIENT STACK', desc: 'Next.js web client and React Native (Expo) mobile app backed by Spring Boot.' },
+      { title: 'STORAGE & REALTIME', desc: 'Live event streaming over WebSockets with AWS S3 asset attachments.' }
     ],
-    tags: ['Next.js', 'React Native', 'Java', 'Spring Boot', 'PostgreSQL', 'CI/CD'],
+    tags: ['Spring Boot', 'Next.js', 'React Native (Expo)', 'PostgreSQL', 'WebSockets', 'AWS S3'],
     links: [
       { text: '🚀 View Live Web App', url: 'https://planora-pma.netlify.app/', primary: true },
       { text: '📂 GitHub Repository', url: 'https://github.com/axzellinnovations/project_management_app', primary: false }
