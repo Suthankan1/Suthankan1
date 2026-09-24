@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="100%" height="auto" role="img" aria-labelledby="termTitle termDesc">
+  <title id="termTitle">Developer Terminal - Suthankan Balenthiran</title>
+  <desc id="termDesc">Terminal session displaying Suthankan's engineering capabilities and focus areas.</desc>
+
+  <defs>
+    <linearGradient id="termBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090D16" />
+      <stop offset="100%" stop-color="#050811" />
+    </linearGradient>
+    <filter id="subtleGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#0284C7" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <!-- Container Box with drop shadow -->
+  <rect x="2" y="2" width="896" height="296" rx="10" fill="url(#termBg)" stroke="#1E293B" stroke-width="1.2" filter="url(#subtleGlow)" />
+
+  <!-- Terminal Title Bar -->
+  <path d="M 2 12 C 2 6.477 6.477 2 12 2 L 888 2 C 893.523 2 898 6.477 898 12 L 898 38 L 2 38 Z" fill="#0E1626" />
+  <line x1="2" y1="38" x2="898" y2="38" stroke="#1E293B" stroke-width="1" />
+
+  <!-- Window Control Buttons -->
+  <circle cx="22" cy="20" r="5.5" fill="#EF4444" />
+  <circle cx="40" cy="20" r="5.5" fill="#F59E0B" />
+  <circle cx="58" cy="20" r="5.5" fill="#10B981" />
+
+  <!-- Terminal Title Text -->
+  <text x="450" y="24" text-anchor="middle" fill="#64748B" font-family="'JetBrains Mono', 'Fira Code', Menlo, Monaco, monospace" font-size="11.5" font-weight="600">suthankan@moratuwa: ~ (zsh)</text>
+
+  <!-- Terminal Body Content -->
+  <g font-family="'JetBrains Mono', 'Fira Code', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" xml:space="preserve">
+    <!-- Command Line -->
+    <text x="24" y="66">
+      <tspan fill="#34D399" font-weight="700">➜</tspan>
+      <tspan fill="#38BDF8" font-weight="700"> ~ </tspan>
+      <tspan fill="#F8FAFC" font-weight="600">suthankan --inspect --capabilities</tspan>
+    </text>
+
+    <!-- JSON Output -->
+    <text x="24" y="94" fill="#94A3B8">{</text>
+    
+    <text x="48" y="116">
+      <tspan fill="#7DD3FC">"identity"</tspan><tspan fill="#94A3B8">: </tspan><tspan fill="#FDE047">"Suthankan Balenthiran"</tspan><tspan fill="#94A3B8">,</tspan>
+    </text>
+
+    <text x="48" y="138">
+      <tspan fill="#7DD3FC">"education"</tspan><tspan fill="#94A3B8">: </tspan><tspan fill="#A7F3D0">"University of Moratuwa | BSc (Hons) IT (2024-2028) | GPA: 3.74"</tspan><tspan fill="#94A3B8">,</tspan>
+    </text>
+
+    <text x="48" y="160">
+      <tspan fill="#7DD3FC">"specializations"</tspan><tspan fill="#94A3B8">: [</tspan><tspan fill="#F1F5F9">"Distributed Systems"</tspan><tspan fill="#94A3B8">, </tspan><tspan fill="#F1F5F9">"Runtime Security"</tspan><tspan fill="#94A3B8">, </tspan><tspan fill="#F1F5F9">"Kafka Outboxes"</tspan><tspan fill="#94A3B8">, </tspan><tspan fill="#F1F5F9">"Cloud &amp; DevOps"</tspan><tspan fill="#94A3B8">],</tspan>
+    </text>
+
+    <text x="48" y="182">
+      <tspan fill="#7DD3FC">"flagships"</tspan><tspan fill="#94A3B8">: [</tspan><tspan fill="#C4B5FD">"VoltGrid (EV Network)"</tspan><tspan fill="#94A3B8">, </tspan><tspan fill="#C4B5FD">"ProofMesh (AI Governance)"</tspan><tspan fill="#94A3B8">, </tspan><tspan fill="#C4B5FD">"SettleCore (.NET 10)"</tspan><tspan fill="#94A3B8">],</tspan>
+    </text>
+
+    <text x="48" y="204">
+      <tspan fill="#7DD3FC">"open_source"</tspan><tspan fill="#94A3B8">: [</tspan><tspan fill="#86EFAC">"Telegram Desktop (Merged)"</tspan><tspan fill="#94A3B8">, </tspan><tspan fill="#86EFAC">"lib_webview (Merged)"</tspan><tspan fill="#94A3B8">, </tspan><tspan fill="#86EFAC">"Testcontainers"</tspan><tspan fill="#94A3B8">],</tspan>
+    </text>
+
+    <text x="48" y="226">
+      <tspan fill="#7DD3FC">"status"</tspan><tspan fill="#94A3B8">: </tspan><tspan fill="#34D399" font-weight="700">"Available for Software Engineering, Backend &amp; DevOps Internships"</tspan>
+    </text>
+
+    <text x="24" y="248" fill="#94A3B8">}</text>
+
+    <!-- Interactive prompt line with pulsing cursor -->
+    <text x="24" y="276">
+      <tspan fill="#34D399" font-weight="700">➜</tspan>
+      <tspan fill="#38BDF8" font-weight="700"> ~ </tspan>
+      <tspan fill="#64748B">curl -sL suthankan.tech/contact</tspan>
+      <tspan fill="#38BDF8"> ▋</tspan>
+    </text>
+  </g>
+</svg>
